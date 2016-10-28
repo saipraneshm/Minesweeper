@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/custom_text"
+            android:id="@+id/textView"
+            android:gravity="bottom"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:paddingBottom="30dp"/>
+
+        <Button
+                    android:id="@+id/Restart"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="@string/restart_button"
+                    android:textSize="15dp"
+                    android:layout_gravity="center_horizontal"/>
+                <Button
+                    android:id="@+id/Exit"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:text="@string/exit_button"
+                    android:textSize="15dp"
+                    android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+</LinearLayout>
